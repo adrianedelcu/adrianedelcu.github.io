@@ -2565,22 +2565,22 @@
 
 
 .contact-info {
-	padding: 30px;
-	float: right;
-	width: 50%;
+	padding: 50px;
+	float: center;
+	width: 100%;
 	min-height: 482px;
 	border: 1px solid #585d65;
-	border-radius: 30px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-khtml-border-radius: 30px;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
 }
 
 .contact-info .name {
 	margin: 0 0 5px 0;
 	font-size: 24px;
 	color: #FFF;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 .contact-info .subname {
@@ -2607,7 +2607,7 @@
 
 .contact-info .author {
 	font-family: "Mr Dafoe";
-	font-size: 32px;
+	font-size: 30px;
 	color: #FFF;
 }
 
@@ -2634,117 +2634,6 @@
 	}
 
 }
-
-/* - Pricing */
-.pricing-items {
-	margin: 0 -20px;
-	font-size: 0;
-}
-
-.pricing-items .pricing-col {
-	padding: 0 20px;
-	display: inline-block;
-	vertical-align: top;
-	width: 50%;
-}
-
-
-.pricing-item {
-	position: relative;
-	text-align: center;
-}
-
-.pricing-item .icons {
-	font-size: 32px;
-	height: 32px;
-	color: #68e0cf;
-}
-
-.pricing-item .name {
-	margin: 15px 0;
-	font-size: 18px;
-	color: #FFF;
-	font-weight: 800;
-}
-
-.pricing-item .amount {
-	margin: 30px 0;
-}
-
-.pricing-item .amount .number {
-	margin: 0;
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 54px;
-	line-height: 36px;
-	font-weight: 800;
-	color: #FFF;
-}
-
-.pricing-item .amount .number .dollar,
-.pricing-item .amount .number .period {
-	position: absolute;
-	left: -15px;
-	top: -5px;
-	display: inline-block;
-	vertical-align: top;
-	font-size: 14px;
-	line-height: 14px;
-	color: #999;
-	font-weight: 400;
-}
-
-.pricing-item .amount .number .period {
-	left: auto;
-	right: -55px;
-	top: auto;
-	bottom: -5px;
-	width: 50px;
-	text-align: left;
-	white-space: nowrap;
-}
-
-.pricing-item .feature-list {
-	margin-bottom: 30px;
-}
-
-.pricing-item .feature-list ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.pricing-item .feature-list ul li {
-	margin: 10px 0;
-	font-size: 14px;
-}
-
-.pricing-item .feature-list ul li:last-child {
-	margin-bottom: 0;
-	border-bottom: none;
-}
-
-.pricing-item .feature-list ul li.disable {
-	text-decoration: line-through;
-	opacity: 0.5;
-}
-
-.pricing-item .feature-list ul li strong {
-	margin: 0 0 0 5px;
-	padding: 0 5px;
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 11px;
-	color: #000;
-	background: #68e0cf;
-	font-weight: 400;
-	border-radius: 2px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-khtml-border-radius: 2px;
-}
-
 
 /* - Testimonials */
 .reviews-item {
