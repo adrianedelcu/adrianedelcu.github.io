@@ -71,7 +71,7 @@
 			<a href="#" class="menu-btn"><span></span></a>
 				
 			<!-- download cv button -->
-			<a href="/documents/cv.pdf" target="_blank" class="btn download-cv-btn">
+			<a href="/documents/cv.pdf" download target="_blank" class="btn download-cv-btn">
 				<span class="animated-button"><span>Download CV</span></span>
 				<i class="icon fas fa-download"></i>
 			</a>
@@ -563,28 +563,26 @@
 						<div class="subtitle">Let's talk</div>
 					</div>
 
-					<!-- contact info -->
-					<div class="contact-info">
-						<div class="name">Hadrian Diem</div>
-						<div class="subname">Programmer</div>
-						<div class="info-list">
-							<ul>
-								<li><strong>Age:</strong> 24</li>
-								<li><strong>Residence:</strong> UK</li>
-								<li><strong>Freelance:</strong> Available</li>
-								<li><strong>Address:</strong> London</li>
-								<li><strong>Phone:</strong> ‭+44 7726 923018‬</li>
-								<li><strong>E-mail:</strong> hadriandiem@zerotoeureka.com</li>
-							</ul>
-						</div>
-						<div class="author">Hadrian Diem</div>
-					</div>
-
-					<div class="clear"></div>
-				</div>
-			</div>
-
-		</div>
+						<!-- contact form -->
+						<div class="contact-form">
+							<form action="mailto:hadriandiem@zerotoeureka.com" method="post" enctype="text/plain">
+								<div class="group-val">
+									<div class="label">Full name <strong>*</strong></div>
+									   <input type="text" name="name" placeholder="ej.: Hadrian D" />
+								</div>
+								<div class="group-val">
+									<div class="label">Email address <strong>*</strong></div>
+									<input type="email" name="email" placeholder="example@domain.com" />
+								</div>
+								<div class="group-val">
+									<div class="label">Message <strong>*</strong></div>
+									<textarea name="message" placeholder="To Write"></textarea>
+								</div>
+								<div class="group-bts">
+									<input type="submit" class="btn">
+								</input>
+								</div>
+							</form>
 		
 		<!-- Footer -->
 		<footer class="footer">
