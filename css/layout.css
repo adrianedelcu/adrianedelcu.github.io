@@ -2566,11 +2566,11 @@
 
 .contact-info {
 	padding: 50px;
-	float: right;
-	width: 150%;
+	float: center;
+	width: %;
 	min-height: 482px;
 	border: 1px solid #585d65;
-	border-radius: 50px;
+	border-radius: px;
 	-moz-border-radius: 80px;
 	-webkit-border-radius: 80px;
 	-khtml-border-radius: 80px;
