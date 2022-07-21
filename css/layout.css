@@ -2571,20 +2571,20 @@
 	min-height: 482px;
 	border: 1px solid #585d65;
 	border-radius: 50px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-khtml-border-radius: 50px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-khtml-border-radius: 30px;
 }
 
 .contact-info .name {
-	margin: 0 0 5px 0;
-	font-size: 24px;
+	margin: 0px 0px 5px 0px;
+	font-size: 25px;
 	color: #FFF;
 	font-weight: 700;
 }
 
 .contact-info .subname {
-	font-size: 11px;
+	font-size: 15px;
 	color: #68e0cf;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -2596,13 +2596,13 @@
 
 .contact-info .info-list ul li {
 	position: relative;
-	white-space: nowrap;
+	white-space: break-spaces;
 	width: 100%;
 }
 
 .contact-info .info-list ul li strong {
-	margin-right: 8px;
-	width: auto;
+	margin-right: 1px;
+	width: %;
 }
 
 .contact-info .author {
