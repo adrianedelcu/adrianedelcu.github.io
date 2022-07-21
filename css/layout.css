@@ -2567,10 +2567,10 @@
 .contact-info {
 	padding: 50px;
 	float: center;
-	width: %;
+	width: 100%;
 	min-height: 482px;
 	border: 1px solid #585d65;
-	border-radius: px;
+	border-radius: 1px;
 	-moz-border-radius: 80px;
 	-webkit-border-radius: 80px;
 	-khtml-border-radius: 80px;
