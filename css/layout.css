@@ -2566,14 +2566,14 @@
 
 .contact-info {
 	padding: 50px;
-	float: center;
-	width: 100%;
+	float: right;
+	width: 150%;
 	min-height: 482px;
 	border: 1px solid #585d65;
 	border-radius: 50px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-khtml-border-radius: 30px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	-khtml-border-radius: 80px;
 }
 
 .contact-info .name {
